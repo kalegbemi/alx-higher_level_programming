@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+Listing all states from the database hbtn_0e_0_usa sorted in ascending order by
+states.id
+"""
+
 import MySQLdb
 import sys
 
@@ -31,3 +36,4 @@ if __name__ == "__main__":
 
     cur.close()
     conn.close()
+
